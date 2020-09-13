@@ -1,11 +1,11 @@
-# TensorFlow Lite image classification Android example application
+# TensorFlow Lite face mask detection Android application
 
 ## Overview
 
-This is an example application for [TensorFlow Lite](https://tensorflow.org/lite)
+This is an application for [TensorFlow Lite](https://tensorflow.org/lite)
 on Android. It uses
 [Image classification](https://www.tensorflow.org/lite/models/image_classification/overview)
-to continuously classify whatever it sees from the device's back camera.
+to continuously classify whatever it sees from the device's camera.
 Inference is performed using the TensorFlow Lite Java API. The demo app
 classifies frames in real-time, displaying the top most probable
 classifications. It allows the user to choose between a floating point or
@@ -97,9 +97,11 @@ will be installed. This will install the app on the device.
 
 <img src="images/classifydemo_img8.png?raw=true" style="width: 80%" />
 
+
 To test the app, open the app called `TFL Classify` on your device. When you run
 the app the first time, the app will request permission to access the camera.
 Re-installing the app may require you to uninstall the previous installations.
+
 
 ## Assets folder
 _Do not delete the assets folder content_. If you explicitly deleted the
